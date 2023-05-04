@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adega Geladão</title>
+    <link rel="stylesheet" href="geladao.css">
+  </head>
+  <body>
+    <header>
+      <h1>Adega Geladão</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Cardápios</a></li>
+          <li><a href="#servicos">erviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="sobre">
+        <h2>Nós vamos ate você</h2>
+        <p></p>
+      </section>
+      <section id="servicos">
+        <h2>Serviços</h2>
+        <ul>
+          <li>Cervejas & Bebidas</li>
+          <li>Delivery</li>
+          <li>Encomendas para eventos</li>
+        </ul>
+      </section>
+      <section id="contato">
+        <h2>Entre em contato</h2>
+        <form>
+          <label for="nome">Seu Nome:</label>
+          <input type="text" id="nome" name="nome"><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+
+          <label for="mensagem">Oque você Precisa:</label>
+          <textarea id="mensagem" name="mensagem"></textarea><br>
+
+          <input type="submit" value="Enviar">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Peruibe/sp</p>
+    </footer>
+  </body>
+</html>
