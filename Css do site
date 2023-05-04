@@ -1,0 +1,82 @@
+/* Estilos para o cabeçalho e menu de navegação */
+header {
+  background-color: #000000;
+  color: yellow;
+  padding: 20px;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  margin: 20px;
+  padding: 5px;
+}
+nav li {
+  display: inline-block
+
+}
+nav a {
+  color: #fff;
+  text-decoration: underline;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 100px;
+
+}
+
+/* Estilos para as seções de conteúdo */
+section {
+  padding: 25px;
+  inline-size: auto;
+  margin-inline: 200px;
+  width: auto;
+  text-align: center;
+}
+section h2 {
+  font-size: 24px;
+  margin-bottom: 50px;;
+  display: flow-root;
+}
+section ul {
+  list-style: none;
+  margin-right: 30px;
+  line-height: normal;
+  width: auto;
+    
+}
+section li {
+  margin-bottom: 10px;
+}
+
+/* Estilos para o formulário de contato */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #333;
+  color: yellow;
+  padding: 20px;
+  text-align: center;
+}
